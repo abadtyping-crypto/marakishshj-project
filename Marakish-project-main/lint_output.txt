@@ -1,0 +1,18 @@
+
+> @minimal/material-kit-react@3.0.0 lint
+> eslint "src/**/*.{js,jsx,ts,tsx}"
+
+
+C:\Users\samyan\Desktop\Marakish Project\src\sections\vehicle\vehicle-details-dialog.tsx
+    6:10  warning  'useTranslation' is defined but never used                        @typescript-eslint/no-unused-vars
+    6:10  warning  'useTranslation' is defined but never used                        unused-imports/no-unused-imports
+  130:15  error    'doc' is already declared in the upper scope on line 8 column 10  @typescript-eslint/no-shadow
+
+C:\Users\samyan\Desktop\Marakish Project\src\sections\vehicle\vehicle-expense-dialog.tsx
+  164:13  error    'currentVexId' is never reassigned. Use 'const' instead  prefer-const
+  164:13  warning  'currentVexId' is assigned a value but never used        @typescript-eslint/no-unused-vars
+  190:17  warning  'oldDesc' is assigned a value but never used             @typescript-eslint/no-unused-vars
+
+Γ£û 6 problems (2 errors, 4 warnings)
+  1 error and 1 warning potentially fixable with the `--fix` option.
+

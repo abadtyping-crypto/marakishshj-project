@@ -1,0 +1,4 @@
+
+> @minimal/material-kit-react@3.0.0 lint
+> eslint "src/**/*.{js,jsx,ts,tsx}"
+

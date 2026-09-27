@@ -1,0 +1,59 @@
+
+> @minimal/material-kit-react@3.0.0 lint
+> eslint "src/**/*.{js,jsx,ts,tsx}"
+
+
+C:\Users\samyan\Desktop\Marakish Project\src\sections\recovery\recovery-card.tsx
+   7:8  warning  'Button' is defined but never used                                           @typescript-eslint/no-unused-vars
+   7:8  warning  'Button' is defined but never used                                           unused-imports/no-unused-imports
+  14:1  error    Expected "@mui/material/Checkbox" to come before "@mui/material/Typography"  perfectionist/sort-imports
+
+C:\Users\samyan\Desktop\Marakish Project\src\sections\recovery\recovery-new-edit-form.tsx
+    9:5   warning  'where' is defined but never used                                                                                    @typescript-eslint/no-unused-vars
+    9:5   warning  'where' is defined but never used                                                                                    unused-imports/no-unused-imports
+   29:1   error    Expected "@mui/material/styles" to come before "@mui/material/DialogContent"                                         perfectionist/sort-imports
+   46:13  warning  't' is assigned a value but never used                                                                               @typescript-eslint/no-unused-vars
+   83:8   warning  React Hook useEffect has a missing dependency: 'fetchInitialData'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  175:21  warning  Expected property shorthand                                                                                          object-shorthand
+
+C:\Users\samyan\Desktop\Marakish Project\src\sections\recovery\recovery-payment-dialog.tsx
+  22:8   warning  'IconButton' is defined but never used                                                                        @typescript-eslint/no-unused-vars
+  22:8   warning  'IconButton' is defined but never used                                                                        unused-imports/no-unused-imports
+  27:1   error    Expected "@mui/material/ListItemText" to come before "@mui/material/DialogContent"                            perfectionist/sort-imports
+  32:10  warning  'Iconify' is defined but never used                                                                           @typescript-eslint/no-unused-vars
+  32:10  warning  'Iconify' is defined but never used                                                                           unused-imports/no-unused-imports
+  59:8   warning  React Hook useEffect has a missing dependency: 'fetchData'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  90:34  error    Unexpected block statement surrounding arrow body; move the returned value immediately after the `=>`         arrow-body-style
+
+C:\Users\samyan\Desktop\Marakish Project\src\sections\recovery\recovery-table-row.tsx
+  13:1  error  Expected "@mui/material/Checkbox" to come before "@mui/material/MenuItem"            perfectionist/sort-imports
+  13:1  error  Extra spacing between "@mui/material/MenuItem" and "@mui/material/Checkbox" objects  perfectionist/sort-imports
+  14:1  error  Missed spacing between "@mui/material/Checkbox" and "src/components/label"           perfectionist/sort-imports
+
+C:\Users\samyan\Desktop\Marakish Project\src\sections\recovery\view\recovery-view.tsx
+    2:33  warning  Expected "useEffect" to come before "useCallback"                                     perfectionist/sort-named-imports
+    3:1   error    Expected "react-i18next" to come before "react"                                       perfectionist/sort-imports
+    4:34  warning  Expected "query" to come before "onSnapshot"                                          perfectionist/sort-named-imports
+    4:50  warning  Expected "doc" to come before "orderBy"                                               perfectionist/sort-named-imports
+    5:1   error    Expected "jspdf" to come before "firebase/firestore"                                  perfectionist/sort-imports
+   16:1   error    Expected "@mui/material/Autocomplete" to come before "@mui/material/TablePagination"  perfectionist/sort-imports
+   17:1   error    Expected "@mui/material/TextField" to come before "@mui/material/Autocomplete"        perfectionist/sort-imports
+   19:1   error    Expected "@mui/material/TableRow" to come before "@mui/material/TableHead"            perfectionist/sort-imports
+   22:1   error    Expected "@mui/material/Checkbox" to come before "@mui/material/TableSortLabel"       perfectionist/sort-imports
+   24:1   error    Expected "@mui/material/styles" to come before "@mui/material/useMediaQuery"          perfectionist/sort-imports
+   25:1   error    Expected "@mui/material/Box" to come before "@mui/material/styles"                    perfectionist/sort-imports
+   35:1   error    Expected "../recovery-table-row" to come before "../../vehicle/table-empty-rows"      perfectionist/sort-imports
+   36:1   error    Expected "../recovery-card" to come before "../recovery-table-row"                    perfectionist/sort-imports
+   43:13  warning  't' is assigned a value but never used                                                @typescript-eslint/no-unused-vars
+  134:15  warning  'pageHeight' is assigned a value but never used                                       @typescript-eslint/no-unused-vars
+  376:35  error    'orderBy' is already declared in the upper scope on line 4 column 41                  @typescript-eslint/no-shadow
+
+C:\Users\samyan\Desktop\Marakish Project\src\sections\reports\view\reports-view.tsx
+  33:6  warning  'Filters' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\samyan\Desktop\Marakish Project\src\sections\user\view\user-view.tsx
+  36:6  warning  React Hook useEffect has a missing dependency: 'table'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Γ£û 37 problems (18 errors, 19 warnings)
+  17 errors and 8 warnings potentially fixable with the `--fix` option.
+

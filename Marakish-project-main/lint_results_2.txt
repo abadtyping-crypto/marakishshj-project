@@ -1,0 +1,25 @@
+
+> @minimal/material-kit-react@3.0.0 lint
+> eslint "src/**/*.{js,jsx,ts,tsx}"
+
+
+C:\Users\samyan\Desktop\Marakish Project\src\sections\recovery\recovery-new-edit-form.tsx
+  45:13  warning  't' is assigned a value but never used                                                                               @typescript-eslint/no-unused-vars
+  82:8   warning  React Hook useEffect has a missing dependency: 'fetchInitialData'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+C:\Users\samyan\Desktop\Marakish Project\src\sections\recovery\recovery-payment-dialog.tsx
+  57:8  warning  React Hook useEffect has a missing dependency: 'fetchData'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+C:\Users\samyan\Desktop\Marakish Project\src\sections\recovery\view\recovery-view.tsx
+   43:13  warning  't' is assigned a value but never used                                @typescript-eslint/no-unused-vars
+  134:15  warning  'pageHeight' is assigned a value but never used                       @typescript-eslint/no-unused-vars
+  376:35  error    'orderBy' is already declared in the upper scope on line 6 column 22  @typescript-eslint/no-shadow
+
+C:\Users\samyan\Desktop\Marakish Project\src\sections\reports\view\reports-view.tsx
+  33:6  warning  'Filters' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\samyan\Desktop\Marakish Project\src\sections\user\view\user-view.tsx
+  36:6  warning  React Hook useEffect has a missing dependency: 'table'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Γ£û 8 problems (1 error, 7 warnings)
+

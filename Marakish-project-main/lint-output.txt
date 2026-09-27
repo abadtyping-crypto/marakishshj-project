@@ -1,0 +1,23 @@
+
+> @minimal/material-kit-react@3.0.0 lint
+> eslint "src/**/*.{js,jsx,ts,tsx}"
+
+
+C:\Users\samyan\Downloads\material-kit-react-main\src\sections\vehicle\vehicle-card.tsx
+  47:18  warning  'e' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\samyan\Downloads\material-kit-react-main\src\sections\vehicle\vehicle-purchase-dialog.tsx
+  161:8   warning  React Hook useEffect has a missing dependency: 'fetchVendorPayments'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  449:23  warning  'newAmount' is assigned a value but never used                                                                          @typescript-eslint/no-unused-vars
+
+C:\Users\samyan\Downloads\material-kit-react-main\src\sections\vehicle\vehicle-table-row.tsx
+  52:18  warning  'e' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\samyan\Downloads\material-kit-react-main\src\sections\vehicle\view\vehicle-view.tsx
+  123:12  warning  'loading' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\samyan\Downloads\material-kit-react-main\src\utils\google-chat.ts
+  42:15  warning  'response' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+Γ£û 6 problems (0 errors, 6 warnings)
+

@@ -1,0 +1,18 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    
+    // Default rule: Allow read and write only if the user is authenticated
+    // This is much safer than test mode (true), but still allows any signed-in user full access.
+    // Replace this with role-based rules once you implement user roles (e.g., Admin vs Employee).
+    match /{document=**} {
+      allow read, write: if request.auth != null;
+    }
+
+    // Example of how you would secure the 'setting' collection for Admins only:
+    // match /setting/{docId} {
+    //   allow read: if request.auth != null;
+    //   allow write: if request.auth.token.admin == true; // Requires Custom Claims
+    // }
+  }
+}

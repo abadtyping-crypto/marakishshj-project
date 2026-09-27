@@ -1,0 +1,19 @@
+[
+    {
+        "origin": [
+            "https://app.marakish.org",
+            "http://localhost:3039"
+        ],
+        "method": [
+            "GET",
+            "POST",
+            "PUT",
+            "DELETE"
+        ],
+        "maxAgeSeconds": 3600,
+        "responseHeader": [
+            "Content-Type",
+            "Authorization"
+        ]
+    }
+]

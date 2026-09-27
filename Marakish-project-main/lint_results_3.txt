@@ -1,0 +1,26 @@
+
+> @minimal/material-kit-react@3.0.0 lint
+> eslint "src/**/*.{js,jsx,ts,tsx}"
+
+
+C:\Users\samyan\Desktop\Marakish Project\src\sections\recovery\recovery-new-edit-form.tsx
+   5:1   error    Expected "react-i18next" to come before "react"          perfectionist/sort-imports
+   5:10  warning  'useTranslation' is defined but never used               @typescript-eslint/no-unused-vars
+   5:10  warning  'useTranslation' is defined but never used               unused-imports/no-unused-imports
+  14:5   warning  'onSnapshot' is defined but never used                   @typescript-eslint/no-unused-vars
+  14:5   warning  'onSnapshot' is defined but never used                   unused-imports/no-unused-imports
+  57:29  warning  'setRecoveryPersons' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\samyan\Desktop\Marakish Project\src\sections\recovery\view\recovery-view.tsx
+   43:13  warning  't' is assigned a value but never used           @typescript-eslint/no-unused-vars
+  134:15  warning  'pageHeight' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\samyan\Desktop\Marakish Project\src\sections\reports\view\reports-view.tsx
+  33:6  warning  'Filters' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\samyan\Desktop\Marakish Project\src\sections\user\view\user-view.tsx
+  36:6  warning  React Hook useEffect has a missing dependency: 'table'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Γ£û 10 problems (1 error, 9 warnings)
+  1 error and 2 warnings potentially fixable with the `--fix` option.
+

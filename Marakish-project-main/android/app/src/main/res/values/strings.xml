@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Marakish</string>
+    <string name="title_activity_main">Marakish</string>
+    <string name="package_name">org.marakish.app</string>
+    <string name="custom_url_scheme">org.marakish.app</string>
+</resources>
